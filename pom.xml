@@ -16,7 +16,7 @@
 
     <repositories>
         <repository>
-            <id>papermc-repo</id>
+            <id>papermc</id>
             <url>https://papermc.io</url>
         </repository>
         <repository>
@@ -50,3 +50,4 @@
         </plugins>
     </build>
 </project>
+
