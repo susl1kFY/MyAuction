@@ -15,10 +15,12 @@
     </properties>
 
     <repositories>
+        <!-- Официальный репозиторий PaperMC -->
         <repository>
-            <id>papermc</id>
+            <id>papermc-repo</id>
             <url>https://papermc.io</url>
         </repository>
+        <!-- Зеркало для подстраховки -->
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
@@ -26,12 +28,14 @@
     </repositories>
 
     <dependencies>
+        <!-- Библиотека Paper API -->
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
             <version>1.21.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
+        <!-- Библиотека Vault -->
         <dependency>
             <groupId>com.github.MilkBowl</groupId>
             <artifactId>VaultAPI</artifactId>
@@ -45,7 +49,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.3.0</version>
+                <version>3.4.1</version>
             </plugin>
         </plugins>
     </build>
